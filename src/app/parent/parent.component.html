@@ -1,0 +1,14 @@
+<div class="mainParentContainer">
+    <div class="container">
+      
+      <!-- its subParent-Component Be Aware of it-->
+      <app-parent1 (emitingDrop)="onClickEMitDrop($event)" ></app-parent1>
+      
+      
+      
+      <!-- it Only Main Child Component -->
+      <app-child [dropDownValue]="dropDownValue" ></app-child>
+    </div>
+
+</div>
+

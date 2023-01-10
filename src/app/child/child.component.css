@@ -1,0 +1,19 @@
+.childContainer{
+    padding: 10px;
+    height: 70px;
+    border: 2px solid black;
+    border-radius: 8px;
+    margin-top: 25px;
+    background-color: white;
+    
+}
+h1{
+    font-size: 24px;
+    font-weight: 700;
+}
+.spanValue{
+    color: blue;
+}
+.spanValueCaution{
+    color: red;
+}
